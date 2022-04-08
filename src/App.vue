@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ComingSoon/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ComingSoon from './components/ComingSoon.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ComingSoon,
+
   }
 }
 </script>
@@ -23,4 +23,10 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+body{
+
+background-color: #ACA3A9;
+}
+
 </style>
